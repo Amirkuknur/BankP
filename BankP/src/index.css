@@ -1,0 +1,78 @@
+/* Reset some defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Center all content */
+div {
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h3 {
+  color: #2c3e50;
+}
+
+/* Fieldset styles */
+fieldset {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #2980b9;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Home dashboard box */
+div > div {
+  margin-top: 30px;
+  background: #ecf0f1;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
